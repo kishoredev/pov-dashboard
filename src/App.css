@@ -2,7 +2,8 @@ html, body, #root, .App {
   height: 100%;
 }
 
-.widget {width:50%; height:48%; float:left;}
+.widgetBig {width:70%; height:48%; float:left;}
+.widgetSmall {width:30%; height:48%; float:left;}
 .embed-container {
     height:100% !important;
     left:0; 
@@ -31,3 +32,8 @@ html, body, #root, .App {
 .App-link {
   color: #09d3ac;
 }
+div#img {
+  height:100%;
+  width:100%;
+}
+
